@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "166148298678",
+    "firebase_url": "https://quizrima-f6a1f.firebaseio.com",
+    "project_id": "quizrima-f6a1f",
+    "storage_bucket": "quizrima-f6a1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166148298678:android:1376ee7a3da7497570d317",
+        "android_client_info": {
+          "package_name": "rimabegum.example.com.quizrima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166148298678-3iremnn102hkakbkropkqmctau48lgv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rimabegum.example.com.quizrima",
+            "certificate_hash": "5d270a308e5f0964929fcf8136b4d63d256f25dd"
+          }
+        },
+        {
+          "client_id": "166148298678-pu7a42ctkd0betbjibs0p9etjvo28dqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo3Gpqcj0SQZY-1inueMUAhcy9l9Wwv3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166148298678-pu7a42ctkd0betbjibs0p9etjvo28dqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
