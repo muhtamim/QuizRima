@@ -14,7 +14,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
-        tools:context=".ComputerNetworking">
+        tools:context=".GenaralKnowledge">
 
         <ImageView
             android:id="@+id/logo"
@@ -87,75 +87,10 @@
             android:textSize="25dp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/Q6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/Q5"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:background="#673AB7"
-            android:text="@string/Q6"
-            android:textColor="#ffffff"
-            android:textSize="25dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/Q7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/Q6"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:background="#673AB7"
-            android:text="@string/Q7"
-            android:textColor="#ffffff"
-            android:textSize="25dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/Q8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/Q7"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:background="#673AB7"
-            android:text="@string/Q8"
-            android:textColor="#ffffff"
-            android:textSize="25dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/Q9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/Q8"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:background="#673AB7"
-            android:text="@string/Q9"
-            android:textColor="#ffffff"
-            android:textSize="25dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/Q10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/Q9"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:background="#673AB7"
-            android:text="@string/Q10"
-            android:textColor="#ffffff"
-            android:textSize="25dp"
-            android:textStyle="bold" />
-
         <Button
             android:id="@+id/Solutionhomebutton"
             android:layout_marginTop="10dp"
-            android:layout_below="@+id/Q10"
+            android:layout_below="@+id/Q5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="25dp"

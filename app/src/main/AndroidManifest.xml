@@ -13,8 +13,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Bangla"></activity>
         <activity android:name=".English" />
-        <activity android:name=".Physics" />
-        <activity android:name=".ComputerNetworking" />
+        <activity android:name=".GenaralKnowledge" />
         <activity android:name=".SolutionCatagory" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>

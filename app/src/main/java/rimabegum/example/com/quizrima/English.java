@@ -26,11 +26,6 @@ public class English extends AppCompatActivity {
         Q3 = (TextView) findViewById(R.id.Q3);
         Q4 = (TextView) findViewById(R.id.Q4);
         Q5 = (TextView) findViewById(R.id.Q5);
-        Q6 = (TextView) findViewById(R.id.Q6);
-        Q7 = (TextView) findViewById(R.id.Q7);
-        Q8 = (TextView) findViewById(R.id.Q8);
-        Q9 = (TextView) findViewById(R.id.Q9);
-        Q10 = (TextView) findViewById(R.id.Q10);
 
 
         Solutionhomebutton.setOnClickListener(new View.OnClickListener() {

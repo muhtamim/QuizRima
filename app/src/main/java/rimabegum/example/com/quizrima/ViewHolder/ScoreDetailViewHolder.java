@@ -4,7 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
-import com.rafa.q.R;
+import rimabegum.example.com.quizrima.R;
 
 public class ScoreDetailViewHolder extends RecyclerView.ViewHolder {
 

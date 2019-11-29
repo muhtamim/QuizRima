@@ -27,24 +27,11 @@
         android:layout_marginRight="20dp"
         android:padding="20dp"
         android:layout_marginTop="20dp"
-        android:text="Computer Networking"/>
+        android:text="সাধারণ জ্ঞান"/>
+
 
     <Button
         android:layout_below="@id/Computer_Networking"
-        android:id="@+id/Physics"
-        android:textColor="#FF0000"
-        android:background="#F0C183"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:padding="20dp"
-        android:layout_marginTop="20dp"
-        android:text="Physics"/>
-
-    <Button
-        android:layout_below="@id/Physics"
         android:id="@+id/English"
         android:textColor="#FF0000"
         android:background="#F0C183"
@@ -55,7 +42,7 @@
         android:layout_marginRight="20dp"
         android:padding="20dp"
         android:layout_marginTop="20dp"
-        android:text="English"/>
+        android:text="ইংলিশ"/>
 
     <Button
         android:layout_below="@id/English"

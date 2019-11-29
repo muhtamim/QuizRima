@@ -86,75 +86,9 @@
             android:textColor="#ffffff"
             android:textStyle="bold"
             android:layout_centerHorizontal="true" />
-
-        <TextView
-            android:layout_below="@id/Q5"
-            android:id="@+id/Q6"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Q37"
-            android:background="#673AB7"
-            android:textSize="25dp"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:layout_centerHorizontal="true" />
-
-        <TextView
-            android:layout_below="@id/Q6"
-            android:id="@+id/Q7"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Q38"
-            android:background="#673AB7"
-            android:textSize="25dp"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:layout_centerHorizontal="true" />
-
-        <TextView
-            android:layout_below="@id/Q7"
-            android:id="@+id/Q8"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Q39"
-            android:background="#673AB7"
-            android:textSize="25dp"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:layout_centerHorizontal="true" />
-
-        <TextView
-            android:layout_below="@id/Q8"
-            android:id="@+id/Q9"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Q40"
-            android:background="#673AB7"
-            android:textSize="25dp"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:layout_centerHorizontal="true" />
-
-        <TextView
-            android:layout_below="@id/Q9"
-            android:id="@+id/Q10"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Q41"
-            android:background="#673AB7"
-            android:textSize="25dp"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:layout_centerHorizontal="true" />
-
         <Button
             android:id="@+id/Solutionhomebutton"
-            android:layout_below="@+id/Q10"
+            android:layout_below="@+id/Q5"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

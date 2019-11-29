@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class ComputerNetworking extends AppCompatActivity {
+public class GenaralKnowledge extends AppCompatActivity {
 
     private Button Solutionhomebutton;
     ScrollView scrollView;
@@ -17,7 +17,7 @@ public class ComputerNetworking extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.computer_networking_solution);
+        setContentView(R.layout.genaralknowlege_solution);
 
         Solutionhomebutton = (Button) findViewById(R.id.Solutionhomebutton);
         scrollView = (ScrollView) findViewById(R.id.Sv);
@@ -26,16 +26,12 @@ public class ComputerNetworking extends AppCompatActivity {
         Q3 = (TextView) findViewById(R.id.Q3);
         Q4 = (TextView) findViewById(R.id.Q4);
         Q5 = (TextView) findViewById(R.id.Q5);
-        Q6 = (TextView) findViewById(R.id.Q6);
-        Q7 = (TextView) findViewById(R.id.Q7);
-        Q8 = (TextView) findViewById(R.id.Q8);
-        Q9 = (TextView) findViewById(R.id.Q9);
-        Q10 = (TextView) findViewById(R.id.Q10);
+
 
         Solutionhomebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ComputerNetworking.this, SolutionCatagory.class);
+                Intent intent = new Intent(GenaralKnowledge.this, SolutionCatagory.class);
                 startActivity(intent);
                 finish();
             }

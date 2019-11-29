@@ -18,13 +18,12 @@ public class SolutionCatagory extends AppCompatActivity {
         CN = (Button) findViewById(R.id.Computer_Networking);
         EN = (Button) findViewById(R.id.English);
         BN = (Button) findViewById(R.id.বাংলা);
-        PY = (Button) findViewById(R.id.Physics);
         HM = (Button) findViewById(R.id.Home);
 
         CN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(SolutionCatagory.this,ComputerNetworking.class);
+                Intent intent=new Intent(SolutionCatagory.this,GenaralKnowledge.class);
                 startActivity(intent);
                 finish();
             }
@@ -48,14 +47,6 @@ public class SolutionCatagory extends AppCompatActivity {
             }
         });
 
-        PY.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(SolutionCatagory.this,Physics.class);
-                startActivity(intent);
-                finish();
-            }
-        });
 
         HM.setOnClickListener(new View.OnClickListener() {
             @Override
